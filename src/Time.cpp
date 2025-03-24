@@ -13,17 +13,17 @@ Time& Time::operator+=(const Time &other)
 }
 
 // Overload the < operator
-bool operator<(const Time &other) const
+bool Time::operator<(const Time &other) const
 {
 }
 
 // Overload the > operator
-bool operator>(const Time &other) const
+bool Time::operator>(const Time &other) const
 {
 }
 
 // Overload the == operator
-bool operator==(const Time &other) const
+bool Time::operator==(const Time &other) const
 {
 }
 
